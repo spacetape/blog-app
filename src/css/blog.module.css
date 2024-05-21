@@ -1,0 +1,149 @@
+/* blog.module.css */
+
+.blogContainer {
+  text-align: center;
+}
+
+.blogTitle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: azure;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.searchAddContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.blogPosts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blogPost {
+  background-color: azure;
+  border-radius: 8px;
+  width: 80%;
+  margin: 10px;
+  padding: 16px;
+  color: #000;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.blogPost:hover {
+  background-color: palegreen;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  transform: scale(1.02);
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
+}
+
+.blogPost h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.blogPost p {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.blogPost small {
+  color: #888;
+}
+
+.search-filter,
+.add-post-form {
+  display: flex;
+  align-items: center;
+}
+
+
+.add-post-form textarea {
+  padding: 8px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 10px;
+}
+
+.search-filter input {
+  background-color: #333;
+  padding-left: 100px;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  color: white; /* Set text color for better visibility */
+}
+
+.search-filter input:focus {
+  background-color: azure;
+  outline: none; /* Optionally remove the focus outline */
+}
+
+.add-post-form button {
+  background-color: green;
+}
+
+.add-post-form input {
+  padding: 7.5px; /* Adjusted padding */
+  margin-left: 115px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 10px;
+  flex: 1; /* Use flex to make the input fill available space */
+}
+
+.add-post-form textarea {
+  color: #111;
+  padding: 7.5px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  flex: 1; /* Use flex to make the textarea fill available space */
+}
+
+.add-post-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 6px 16px; /* Adjusted padding */
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.search-filter button{
+  background-color: #007bff;
+  color: #fff;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.search-filter input {
+  background-color: #333;
+  padding: 8.5px; /* Adjusted padding */
+  padding-left: 100px;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  color: black;
+}
+
+.search-filter input:focus {
+  background-color: azure;
+  outline: none;
+}

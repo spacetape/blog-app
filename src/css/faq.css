@@ -1,0 +1,107 @@
+/* faq.css */
+.faq-and-reviews-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .page-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: azure;
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+  
+  /* FAQ Section Styles */
+  .faq-section {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  .faq-item h2 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .faq-item p {
+    font-size: 18px;
+    color: #ccc;
+    font-weight: 300;
+  }
+  
+  /* Reviews Section Styles */
+  .reviews-section {
+    text-align: center;
+  }
+  
+  .review-capsule-full,
+  .review-capsule-small,
+  .review-capsule-medium {
+    margin: 50px;
+    padding: 20px;
+    border-radius: 40px;
+    color: azure;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+  }
+  
+  .review-capsule-full:hover,
+  .review-capsule-small:hover,
+  .review-capsule-medium:hover {
+    background-color: teal;
+    cursor: pointer;
+    transition: all 1.5s ease;
+    color: whitesmoke;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 200, 255, 0.8);
+  }
+  
+  .review-capsule-full h2,
+  .review-capsule-small h2,
+  .review-capsule-medium h2 {
+    font-size: 24px;
+  }
+  
+  .review-capsule-full p,
+  .review-capsule-small p,
+  .review-capsule-medium p {
+    font-size: 18px;
+  }
+  
+  .rating {
+    font-weight: bold;
+    margin-top: 10px;
+    color: black;
+  }
+
+  .review-capsule-full:hover .rating,
+  .review-capsule-small:hover .rating,
+  .review-capsule-medium:hover .rating{
+    transition: all 1.5s;
+    color: palegoldenrod;
+  }
+  
+  /* Button Styles with Animations */
+  .send-review-button {
+    background-color: #2d2d2d;
+    color: azure;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .send-review-button:hover {
+    background-color: aqua;
+    transform: scale(1.1);
+  }
+  

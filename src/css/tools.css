@@ -1,0 +1,96 @@
+/* tools.css */
+.tools-container {
+    text-align: center;
+  }
+  
+  .page-title {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    color: azure;
+    font-size: 40px;
+  }
+
+  .page-text{
+    margin-bottom: 50px;
+  }
+  
+  .tool-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .tool-capsule-small {
+    background-color: #2d2d2d;
+    padding: 30px;
+    border-radius: 40px;
+    width: calc(33.33% - 20px); /* Adjusted width for three capsules in a row with margin */
+    margin: 10px;
+    color: azure;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+  }
+  
+  .tool-capsule-medium {
+    background-color: #2d2d2d;
+    padding: 30px;
+    border-radius: 40px;
+    width: calc(25% - 20px); /* Adjusted width for the second capsule in the row */
+    margin: 10px;
+    color: azure;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+  }
+  
+  .tool-capsule-big {
+    background-color: #2d2d2d;
+    padding: 30px;
+    border-radius: 40px;
+    width: calc(41.66% - 20px); /* Adjusted width for the third capsule in the row */
+    margin: 10px;
+    color: azure;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+  }
+  
+  .tool-capsule-small:hover{
+    background-color: palevioletred;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #111;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 200, 255, 0.8);
+  }
+
+  .tool-capsule-medium:hover{
+    background-color: aqua;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #111;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 200, 255, 0.8);
+  }
+
+  .tool-capsule-big:hover {
+    background-color: palegoldenrod;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #111;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 200, 255, 0.8);
+  }
+  
+  .tool-capsule-small.color-change,
+  .tool-capsule-medium.color-change,
+  .tool-capsule-big.color-change {
+    background-color: lightblue;
+    color: #111;
+  }
+  
+  .tool-capsule-small.color-change:hover,
+  .tool-capsule-medium.color-change:hover,
+  .tool-capsule-big.color-change:hover {
+    background-color: aqua;
+  }
+  

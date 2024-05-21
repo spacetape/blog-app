@@ -1,0 +1,133 @@
+.bigcapsule {
+    background-color: azure;
+    padding: 50px;
+    border-radius: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 50px;
+    color: #111;
+    transition: all 0.3s ease;
+}
+
+.bigcapsule:hover {
+    background-color: palegreen;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
+}
+
+.capsules-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.capsule {
+    background-color: #2d2d2d;
+    padding: 30px;
+    border-radius: 40px;
+    width: calc(50% - 2px);
+    color: azure;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.capsule:hover{
+    background-color: aqua;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #111;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 200, 255, 0.8);
+}
+
+.capsule.color-change {
+    background-color: lightblue; 
+    color: #111;
+}
+.capsule.color-change:hover{
+    background-color: aqua;
+}
+
+.calendarh{
+    margin-top: 10px;
+}
+
+.calendar-capsule {
+    border-radius: 20px;
+    overflow: hidden; 
+    margin-top: 0px;
+    padding: 10px;
+    background-color: #2d2d2d;
+    margin-right: 80px;
+}
+
+.calendar-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.calendar-day {
+    text-align: center;
+    flex: 0 0 calc(14.2857% - 10px);
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.calendar-day:hover {
+    background-color: #f0f0f0;
+    color: #111;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.calendar-day.task-day {
+    background-color: #8effa9; 
+}
+
+.current-month {
+    color: #fff;
+    font-weight: bold;
+}
+
+.weekend {
+    color: #990000;
+}
+
+.today {
+    background-color: palegreen;
+    color: #111;
+}
+.previous-month {
+    color: #666;
+}
+
+.calbuttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .calbuttons-container button {
+    margin: 0 10px;
+    padding: 5px 20px;
+    font-size: 16px;
+    background-color: rgba(0, 200, 255, 0.8);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .calbuttons-container button:hover {
+    background-color: #0056b3;
+  }
+  

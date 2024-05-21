@@ -1,0 +1,118 @@
+/* profile.css */
+
+.profile-container {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.profile-container:hover{
+    background-color: paleturquoise;
+}
+
+.profile-container .avatar-container {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    padding: 100px;
+}
+
+.profile-container .avatar-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-container .user-details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.profile-container h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.profile-container p {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.profile-container button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-container button:hover {
+    background-color: #45a049;
+}
+
+/* Experiment with capsule elements */
+.profile-container .capsule {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.profile-container .capsule:hover {
+    background-color: #2980b9;
+}
+
+.profile-container .edit-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.profile-container .edit-form label {
+    display: block;
+    color: #333;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.profile-container .edit-form input,
+.profile-container .edit-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.profile-container .edit-form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-container .edit-form button:hover {
+    background-color: #45a049;
+}
+
+@media only screen and (max-width: 600px) {
+    .profile-container .user-details,
+    .profile-container .edit-form {
+        width: 80%;
+    }
+}
